@@ -1,0 +1,71 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body, div, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  text-align: center;
+  padding: 3%;
+  color: white;
+  background-color: #26C6DA;
+
+  z-index: 10;
+  position: relative;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 4px 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 4px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#header img {
+  width: 200px;
+  height: 200px;
+}
+
+#info p {
+  margin-top: 2px;
+}
+
+#info a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fieldBlock {
+  text-align: center;
+  color: #616161;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+}
+
+.fieldBlock a {
+  text-decoration: none;
+}
+
+.fieldBlock:hover {
+  font-size: 20px;
+}
+
+.blockLeft {
+  background-color: white;
+}
+
+.blockRight {
+  background-color: white;
+}
+
+#footer {
+  text-align: center;
+  padding: 3%;
+  color: white;
+  background-color: #26C6DA;
+  -webkit-box-shadow: 0px -4px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px -4px 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px -4px 10px 0px rgba(50, 50, 50, 0.75);
+}
